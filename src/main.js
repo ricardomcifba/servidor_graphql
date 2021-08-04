@@ -8,7 +8,7 @@ const server = createServer((request, response) => {
             });
             response.write(
                 JSON.stringify({
-                    status:'Okay',
+                    status:'Teste',
                 })
             );
             response.end();
